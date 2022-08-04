@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+    <title>Frontend Mentor | Expenses chart component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+            padding: 20px;
+            margin-left: 10%;
+        }
+        
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="navbardiv">
+            <div class="navbarDivItem1">
+                <p class="navbarParagraph">My balance</p>
+                <h2 class="navbarh1">$921.48</h2>
+            </div>
+
+            <img class="navbarDivItem2" src="images/logo.svg" alt="" />
+        </div>
+
+        <div class="divsWrap chartsDiv">
+            <div class="heading-div">
+                <h3>Spending - Last 7 days</h3>
+            </div>
+
+            <div class="days-with-bars">
+                <div class="bars">
+                    <span class="day-c mon-c"> </span>
+                    <span class="day-c tue-c"> </span>
+                    <span class="day-c wed-c"> </span>
+                    <span class="day-c thu-c"> </span>
+                    <span class="day-c fri-c"> </span>
+                    <span class="day-c sat-c"> </span>
+                    <span class="day-c sun-c"> </span>
+                </div>
+
+                <div class="days">
+                    <span class="day mon"> mon </span>
+                    <span class="day tue"> tue</span>
+                    <span class="day wed"> wed </span>
+                    <span class="day thu"> thu</span>
+                    <span class="day fri"> fri</span>
+                    <span class="day sat"> sat</span>
+                    <span class="day sun">sun </span>
+                </div>
+            </div>
+        </div>
+
+        <hr />
+
+        <div class="divsWrap totalsDiv">
+            <div class="totals-this-month">
+                <p>Total this month</p>
+                <h2>$478.33</h2>
+            </div>
+
+            <div class="from-last-Month">
+                <h3>+2.4%</h3>
+                <p>from last month</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a
+      >. Coded by <a href="#">Abdul Salam</a>.
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

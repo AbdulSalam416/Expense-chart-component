@@ -1,0 +1,157 @@
+body {
+    background-color: hsl(27, 66%, 92%);
+    font-family: 'Outfit', sans-serif;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    margin-left: 40%;
+    height: 450px;
+    width: 350px;
+    border-radius: 5%;
+    padding: 10px;
+}
+
+.navbardiv {
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 15px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+hr {
+    color: grey;
+    z-index: 1;
+}
+
+.navbardiv p,
+h2 {
+    color: white;
+}
+
+.divsWrap {
+    background-color: white;
+}
+
+.chartsDiv {
+    display: flex;
+    flex: 3;
+    padding: 20px;
+    flex-direction: column;
+}
+
+.days-with-bars {
+    display: flex;
+    flex-direction: column;
+    flex: 5;
+    justify-content: space-between;
+}
+
+.bars {
+    display: flex;
+    justify-content: space-between;
+    flex: 4;
+    /* border: 2px solid; */
+    align-items: flex-end;
+    cursor: pointer;
+}
+
+.mon-c {
+    height: 30px;
+   
+}
+
+
+.day-c{
+    width: 25px;
+    border-radius: 5px;
+    background-color: hsl(10, 79%, 65%);
+
+}
+
+.day-c:active{
+
+    background-color: hsl(25, 47%, 15%);
+
+}
+
+
+.tue-c {
+    height: 60px;
+}
+
+.wed-c {
+    height: 70px;
+    
+
+}
+
+
+.thu-c {
+    height: 55px;
+}
+
+.fri-c {
+    height: 50px;
+}
+
+.sat-c {
+    height: 65px;
+}
+
+.sun-c {
+    height: 54px;
+}
+
+.days {
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid; */
+    align-items: flex-end;
+    color: grey;
+    cursor: pointer;
+    padding-top: 8px;
+}
+
+.mon,
+.tue,
+.wed,
+.thu,
+.fri,
+.sat,
+.sun {
+    width: 25px;
+}
+
+.totalsDiv {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -30px;
+    padding: 20px;
+}
+
+.totalsDiv h2 {
+    color: black;
+}
+
+.totalsDiv p {
+    color: grey;
+}
+
+@media (min-width: 600px) {
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+        margin-left: 40%;
+        height: 450px;
+        width: 350px;
+        border-radius: 5%;
+        padding: 10px;
+    }
+}
